@@ -68,3 +68,35 @@ do {
 
 // This should run after the loop is done executing
 alert("You know the secret password. Welcome!");
+
+
+// Another example tiny here
+
+
+
+let i = 1;
+do {
+    console.log(`#${i}`);
+    i += 2;
+} while (i <= 15);
+
+// So this would be the output for this loop
+// Consider the following console output:
+
+// #1
+// #3
+// #5
+// #7
+// #9
+// #11
+// #13
+// #15
+
+
+// The same thing is done with the for loop
+
+for (let i = 1; i <= 15; i += 2) {
+
+    console.log(`#${i}`);
+
+}
