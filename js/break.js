@@ -114,3 +114,28 @@ Notice how the looping behavior changes when you omit the break keyword.
 
 You may have noticed that the break statement works like the return statement in a function. Any code inside the loop that appears after the break statement will never run.
 */
+
+
+
+
+//**Another example*/
+
+
+
+
+// The for loop in script.js runs as many times as the length value of the string assigned to the message variable. It logs the current value of i to the console, and the rest of the program continues when the loop completes.
+
+// Add the statement that immediately terminates the for loop if the value of i is equal to message / 2 (half the length value).
+
+let message = "supercalifragilisticexpialidocious";
+message = message.length;
+
+for (let i = 1; i < message; i++) {
+    if (i === message / 2) {
+        console.log('The loop has terminated...');
+        break; // terminate the loop here if its correct or true
+    }
+    console.log(`Logging the number ${i}`);
+}
+
+console.log('The program continues...');
